@@ -22,15 +22,15 @@ A C++ console application that calculates the shortest route between cities usin
 -City.txt
    -Each line contains data for a city: <ID> <Code> <Name> <Population> <Elevation>
    -Example:
-    0 LA LosAngeles 3970000 305
-    1 SF SanFrancisco 884000 52
-    2 LV LasVegas 641000 2001
+       0 LA LosAngeles 3970000 305
+       1 SF SanFrancisco 884000 52
+       2 LV LasVegas 641000 2001
 -Road.txt
   -Each line contains an edge between two cities: <Start_City_ID> <End_City_ID> <Distance>
   -Example:
-    0 1 381
-    0 2 270
-    1 2 570
+      0 1 381
+      0 2 270
+      1 2 570
 
   #How To Compile and Run
 
